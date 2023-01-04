@@ -16,7 +16,7 @@ int main(void)
 	int a = 0, b = 1, c = a + b;
 	cout <<a <<", " <<b;
 
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n - 2; i++)
 	{
 		cout <<", " <<c;
 		a = b;
