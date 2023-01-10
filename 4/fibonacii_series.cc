@@ -1,4 +1,4 @@
-// Program to print fibonacii series upto n terms
+// Program to print fibonacci series upto n terms
 
 #include <iostream>
 
