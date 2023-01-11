@@ -1,5 +1,6 @@
 // Program to find S = 1+2+3+4+..... n terms
 
+
 #include <iostream>
 
 using namespace std;
