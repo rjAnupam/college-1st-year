@@ -30,7 +30,7 @@ int main(void)
 	{
 		double real = -b / (2*a);
 		double imag = sqrt(-d) / (2*a);
-		cout <<"The equation has two complex roots:\n" <<real <<" + i" <<imag <<endl <<real <<" - i" <<imag <<endl;;
+		cout <<"The equation has two complex roots:\n" <<real <<" + i" <<imag <<endl <<real <<" - i" <<imag <<endl;
 	}
 
 	return 0;
