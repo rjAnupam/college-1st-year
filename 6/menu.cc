@@ -53,6 +53,13 @@ int menu(void)
 
 	int c;
 	cin >>c;
+	if (c != {0, 1, 2, 3})
+	{
+		cout <<"Invalid! Try again.\n Press Enter\n";
+		cin.ignore();
+		cin.ignore();
+		c = menu();
+	}
 
 	return c;
 }
