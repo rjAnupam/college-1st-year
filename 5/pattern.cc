@@ -17,6 +17,12 @@ int main(void)
 	cout <<"Height: ";
 	cin >>n;
 
+	if (n < 0)
+	{
+		cout <<"Please enter a positive number.\n";
+		return 1;
+	}
+
 	int c = 1;
 	for (int i = 0; i < n; i++)
 	{
@@ -27,4 +33,6 @@ int main(void)
 		}
 		cout <<endl;
 	}
+
+	return 0;
 }

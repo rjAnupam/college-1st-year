@@ -19,11 +19,11 @@ int main(void)
 	cout <<"Percentage: " <<percent <<"%\n";
 	cout <<"Grade: ";
 
-	if (percent > 90) cout <<"A";
-	else if (percent > 80) cout <<"B";
-	else if (percent > 70) cout <<"C";
-	else if (percent > 60) cout <<"D";
-	else if (percent > 50) cout <<"E";
+	if (percent > 89) cout <<"A";
+	else if (percent > 79) cout <<"B";
+	else if (percent > 69) cout <<"C";
+	else if (percent > 59) cout <<"D";
+	else if (percent > 49) cout <<"E";
 	else cout <<"F";
 
 	cout <<endl;

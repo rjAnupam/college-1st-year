@@ -13,6 +13,12 @@ int main(void)
 	cout <<"Enter the coefficients of the quadratic equation (a, b, c):\n";
 	cin >>a >>b >>c;
 
+	if (a == 0)
+	{
+		cout <<"This is not a quadratic equation.\n";
+		return 1;
+	}
+
 	double d = b*b - 4*a*c;
 
 	if (d == 0)
@@ -23,7 +29,7 @@ int main(void)
 	else if (d > 0)
 	{
 		r1 = (-b + sqrt(d)) / (2*a);
-		r1 = (-b - sqrt(d)) / (2*a);
+		r2 = (-b - sqrt(d)) / (2*a);
 		cout <<"The roots are real and distinct:\n" <<r1 <<endl <<r2 <<endl;
 	}
 	else
