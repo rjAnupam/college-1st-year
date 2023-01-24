@@ -1,8 +1,11 @@
+// Program to take input of n numbers and sort them in ascending order
+
+
 #include <iostream>
 
 using namespace std;
 
-#define n 5
+#define n 10
 
 
 void bubble_sort(int arr[]);
